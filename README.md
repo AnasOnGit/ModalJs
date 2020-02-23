@@ -8,20 +8,27 @@ CSS
 ```
 <link rel="stylesheet" href="https://rawcdn.githack.com/AnasOnGit/ModalJs/f3e03e23e9d7459122951c2eddb58f22ded77490/modal.css">
 ```
-```
 JAVASCRIPT
+```
 <script src="https://rawcdn.githack.com/AnasOnGit/ModalJs/f3e03e23e9d7459122951c2eddb58f22ded77490/modal.js"></script>
 ```
 
-After adding these tags to your project  create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
-
-# You can add any string in data-modal attribute, but you have write same string in modal div and in modal button #
-
-Now create a div with the class of modal and add data-modal="modal" attribute to it, thats all, you can create more than one modal.
-
+After adding these create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
+Now create a div with the class of modal and add data-modal="modal" attribute to it, thats all, You can create more than one modal.
+**You can add any string in data-modal attribute, but you have to write same string in modal div and in modal button**
 
 
 ## Example
+Button
+```
+<button class="modal-button" data-modal="modal">Login</button>
+```
+Div
+```
+<div class="modal" data-modal="modal">Login Form.</div>
+```
+
+## Template
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -47,5 +54,10 @@ Now create a div with the class of modal and add data-modal="modal" attribute to
 </body>
 </html>	
 ```
+
+# Features
+*Press Esc to ESC
+*Double click on background to close
+*Close button
 
 cdn created by:[GitHack](https://raw.githack.com/)
