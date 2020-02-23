@@ -14,7 +14,10 @@ JAVASCRIPT
 ```
 
 After adding these tags, create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
-Now create a div with the class of modal and add data-modal="modal" attribute to it, thats all, You can create more than one modal.
+Now create a div with the class of modal and add data-modal="modal" attribute to it, That's it.
+
+You can create more than one modal on same page.
+
 **You can add any string in data-modal attribute, but you have to write same string in modal div and in modal button**
 
 
@@ -56,8 +59,8 @@ Div
 ```
 
 # Features
-1.Press Esc to ESC
-1.Double click on background to close
-1.Close button
+1. Press Esc to ESC
+2. Double click on background to close
+3. Close button
 
 cdn created by:[GitHack](https://raw.githack.com/)
