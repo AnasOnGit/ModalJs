@@ -15,9 +15,11 @@ JAVASCRIPT
 
 After adding these tags to your project  create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
 
-*you can add any string in data-modal attribute, but you have write same string on modal and in modal button*
+# You can add any string in data-modal attribute, but you have write same string in modal div and in modal button #
 
-Now create a div with the class of modal and add data-modal="modal" attribute to it, thats all.
+Now create a div with the class of modal and add data-modal="modal" attribute to it, thats all, you can create more than one modal.
+
+
 
 ## Example
 ```
@@ -46,4 +48,4 @@ Now create a div with the class of modal and add data-modal="modal" attribute to
 </html>	
 ```
 
-cdn created by:[gitHack](https://raw.githack.com/)
+cdn created by:[GitHack](https://raw.githack.com/)
