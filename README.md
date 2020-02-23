@@ -13,7 +13,7 @@ JAVASCRIPT
 <script src="https://rawcdn.githack.com/AnasOnGit/ModalJs/f3e03e23e9d7459122951c2eddb58f22ded77490/modal.js"></script>
 ```
 
-After adding these create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
+After adding these tags, create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
 Now create a div with the class of modal and add data-modal="modal" attribute to it, thats all, You can create more than one modal.
 **You can add any string in data-modal attribute, but you have to write same string in modal div and in modal button**
 
@@ -56,8 +56,8 @@ Div
 ```
 
 # Features
-*Press Esc to ESC
-*Double click on background to close
-*Close button
+1.Press Esc to ESC
+1.Double click on background to close
+1.Close button
 
 cdn created by:[GitHack](https://raw.githack.com/)
