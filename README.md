@@ -31,8 +31,8 @@ You can create more than one modal on same page.
 **You can add any string in data-modal attribute, but you have to write same string in modal div and in modal button**
 
 
-## Example
-[Live Example](https://anasongit.github.io/ModalJs/)
+## Demo
+[Live Demo](https://anasongit.github.io/ModalJs/)
 
 Button
 ```
