@@ -17,9 +17,13 @@ After adding these tags, create a button with the class of modal-button and add 
 Now create a div with the class of modal and add data-modal="modal" attribute to it, That's it.
 
 **Add same value in data-modal attr**
+
 Button
+
 ![](readme-gif/button.gif)
+
 Div
+
 ![](readme-gif/div.gif)
 
 You can create more than one modal on same page.
