@@ -1,5 +1,6 @@
 # ModalJs
 create modal with pure Javascript and css.
+
 ![](readme-gif/modal.gif)
 
 ## Usage
