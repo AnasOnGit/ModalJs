@@ -2,7 +2,7 @@
 create modal with pure Javascript and css.
 
 ## Usage
-Add following tags to your html document:
+Add the following tags to your HTML document:
 
 CSS
 ```
@@ -26,9 +26,9 @@ Div
 
 ![](readme-gif/div.gif)
 
-You can create more than one modal on same page.
+You can create more than one modal on the same page.
 
-**You can add any string in data-modal attribute, but you have to write same string in modal div and in modal button**
+**You can add any string in data-modal attribute, but you have to write the same string in modal div and in modal button**
 
 
 ## Demo
@@ -43,7 +43,7 @@ Div
 <div class="modal" data-modal="modal">Login Form.</div>
 ```
 # Add title 
-You can add title by adding _data-modal_ attribute to span or div, it should be same as on your modal and add a class of modal-title to it.
+You can add a title by adding _data-modal_ attribute to span or div, it should be the same as on your modal and add a class of modal-title to it.
 
 Button
 ```
@@ -58,7 +58,7 @@ Div
 ```
 
 # Create Multiple Modal
-You can easily create multiple modal by adding same data-modal attribute to modal and button.
+You can easily create multiple modals by adding the same data-modal attribute to modal and button.
 
 Modal 1
 
@@ -126,8 +126,8 @@ Modal Div
 
 # Features
 1. Press Esc to close
-2. Double click on background to close
+2. Double click on the background to close
 3. Close button
 
 
-cdn created by:[GitHack](https://raw.githack.com/)
+CDN created by:[GitHack](https://raw.githack.com/)
