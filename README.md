@@ -32,6 +32,8 @@ You can create more than one modal on same page.
 
 
 ## Example
+[Live Example](https://anasongit.github.io/ModalJs/)
+
 Button
 ```
 <button class="modal-button" data-modal="modal">Login</button>
