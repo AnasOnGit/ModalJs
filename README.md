@@ -69,9 +69,46 @@ Div
 </body>
 </html>	
 ```
+# Create Multiple Modal
+You can easily create multiple modal by adding same data-modal attribute to modal and button.
+
+Modal 1
+Button
+```
+<button class="modal-button" data-modal="modal1">Modal1</button>
+```
+Div
+```
+<div class="modal" data-modal="modal1">Model1</div>
+``` 
+
+Modal 2
+Button
+```
+<button class="modal-button" data-modal="modal2">Modal2</button>
+```
+Div
+```
+<div class="modal" data-modal="modal2">Model2</div>
+``` 
+
+# Custom Height and Width
+you can add custom height and width by adding data-height and data-width attr to your modal div.
+
+Example
+Modal Button
+```
+<button class="modal-button" data-modal="modal3">Custom Height and Width</button>
+```
+Modal Div
+```
+<div class="modal" data-modal="modal3"  data-height="500px" data-width="400px">
+	custom height and width
+</div>
+```
 
 # Features
-1. Press Esc to ESC
+1. Press Esc to close
 2. Double click on background to close
 3. Close button
 
