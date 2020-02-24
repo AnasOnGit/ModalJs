@@ -16,8 +16,8 @@ JAVASCRIPT
 After adding these tags, create a button with the class of modal-button and add a data-modal="modal" attribute to your button.
 Now create a div with the class of modal and add data-modal="modal" attribute to it, That's it.
 
-![](gif/button.gif)
-![](gif/div.gif)
+![](readme-gif/button.gif)
+![](readme-gif/div.gif)
 
 You can create more than one modal on same page.
 
