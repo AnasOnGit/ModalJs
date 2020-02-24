@@ -2,7 +2,7 @@
 The Modal Js is a plugin written in pure Javascript and CSS.
 Modal Js will create a dialog box/popup window that is displayed on top of the current page.
 
-![](readme-gif/modal.gif)
+		![](readme-gif/modal.gif)
 
 ## Usage
 Add the following tags to your HTML document:
@@ -134,3 +134,5 @@ Modal Div
 
 
 CDN created by [GitHack](https://raw.githack.com/)
+
+[Blog](https://programmingplugs.blogspot.com/2020/02/create-modal-from-html-javascript-and.html)
