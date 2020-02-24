@@ -132,4 +132,4 @@ Modal Div
 3. Close button
 
 
-CDN created by:[GitHack](https://raw.githack.com/)
+CDN created by [GitHack](https://raw.githack.com/)
