@@ -25,6 +25,11 @@
 {
 	display:none;
 }
+
+.modal-title
+{
+	display:none;
+}
 .modal-active
 {
 	visibility: visible;
@@ -46,6 +51,15 @@
 .main-modal h1
 {
 	font-size:22px;
+}
+
+.main-modal .title-div
+{
+
+	position: absolute;
+	top:20px;
+	left:10px;
+
 }
 
 .main-modal .close-btn

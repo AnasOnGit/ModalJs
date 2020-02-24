@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Modal Test</title>
-	<link rel="stylesheet" href="https://rawcdn.githack.com/AnasOnGit/ModalJs/f3e03e23e9d7459122951c2eddb58f22ded77490/modal.css">
+	<link rel="stylesheet" href="modal.css">
 	<!-- <link rel="stylesheet" href="modal.css"> -->
 	<style>
 		body
@@ -24,14 +24,29 @@
 	<!-- Modal button with class of modal-button and custom html attr of data-modal attr which sould same as on your modal -->
 	<button class="modal-button" data-modal="modal1">Show Modal</button>
 	<button class="modal-button" data-modal="modal2">Custom Height and width</button>
+	<button class="modal-button" data-modal="example1">Tilte 1</button>
+	<button class="modal-button" data-modal="example2">Tilte 2</button>
 
 	<!-- Modal with class of modal and custom html attr of data-modal  which sould same as on your modal button -->
-	<div class="modal" data-modal="modal1">Press "ESC" or click twice to close the close modal.</div>
+	<div class="modal" data-modal="modal1">
+		Press "ESC" or click twice to close the close modal.
+	</div>
 
 	<!-- you can also define custom heigh and width from data-height and data-width attr -->
 	<div class="modal cla" data-modal="modal2"  data-height="500px" data-width="400px">
 		custom height and width
 	</div>
-	<script src="https://rawcdn.githack.com/AnasOnGit/ModalJs/f3e03e23e9d7459122951c2eddb58f22ded77490/modal.js"></script>
+
+	<!-- title -->
+	<div class="modal cla" data-modal="example1"  >
+		Wow!!!
+		<span data-modal="example1" class="modal-title">Title from title div</span>
+	</div>
+
+	<!-- title from data-title attr -->
+	<div class="modal cla" data-modal="example2" data-title="Title from data-title attribute" >
+		Wow!!!
+	</div>
+	<script src="modal.js"></script>
 </body>
 </html>		

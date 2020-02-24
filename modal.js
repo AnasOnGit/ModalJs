@@ -1,6 +1,6 @@
 let modalBg = document.createElement("div");
 // model
-	function createModal(content,contentModalClass,width="DEFAULT",height="DEFAULT",location = document.body)
+	function createModal(content,title,contentModalClass,width="DEFAULT",height="DEFAULT",location = document.body)
 	{
 		// modal background
 		modalBg.setAttribute("class","modal-bg"); 
@@ -19,11 +19,11 @@ let modalBg = document.createElement("div");
 			modal.style.height = height;
 		}
 
+
 		// modal content div
 		let modalContent = document.createElement("div");
 		modalContent.setAttribute("class","modal-content");
 
-		
 
 		// append content to modal content
 		// modalContent.insertAdjacentElement("beforeend",content);
@@ -35,7 +35,14 @@ let modalBg = document.createElement("div");
 		closeBtn.textContent = "+";
 		closeBtn.setAttribute("class","close-btn");
 
-		// appending close button and modal content to modal
+		// appending title, close button and modal content to modal
+		if(title != null)
+		{
+			let titleDiv = document.createElement("div");
+			titleDiv.innerHTML = title;
+			titleDiv.setAttribute("class","title-div"); 
+			modal.append(titleDiv)
+		}
 		modal.appendChild(closeBtn);
 		modal.appendChild(modalContent);
 
@@ -107,6 +114,33 @@ if(document.getElementsByClassName("modal-button").length > 0)
 				const modalDataModalAttr = getModal[mdlB].getAttribute("data-modal")
 				if(modalDataModalAttr == buttonDataModalAttr)
 				{
+					let title= null;
+					if(document.getElementsByClassName('modal').length != null)
+					{
+						 const getTitle = document.getElementsByClassName('modal-title');
+						if(getTitle.length > 0)
+						{
+							for(let til = 0; til < getTitle.length; til++){
+								let titleDataModalAttr = getTitle[til].getAttribute("data-modal");
+								if(titleDataModalAttr == modalDataModalAttr)
+								{
+									title = getTitle[til].textContent;
+									break;
+								}
+								else
+								{
+									break;
+								}
+							}
+						}
+				
+					}
+					//  checking title 
+					if(getModal[mdlB].getAttribute("data-title") != null)
+					{
+						 title = getModal[mdlB].getAttribute("data-title")
+					}
+
 					//  checking if their is width 
 					let modalWidth = 'DEFAULT';
 					if(getModal[mdlB].getAttribute("data-width") != null)
@@ -124,7 +158,8 @@ if(document.getElementsByClassName("modal-button").length > 0)
 					const content = getModal[mdlB].innerHTML;
 					let modalClassess = getModal[mdlB].getAttribute("class");
 					modalClassess = modalClassess.replace('modal','')
-	   				createModal(content,modalClassess,modalWidth,modalHeight);
+					console.log(title)
+	   				createModal(content,title,modalClassess,modalWidth,modalHeight);
 	   				break;
 				}
 			}
